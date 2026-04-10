@@ -64,7 +64,7 @@ your-repo/
 │       └── update-skill.js
 ```
 
-### 2. Add your Anthropic API key as a GitHub secret
+### 2. Add your Anthropic API key or any AI assitant API key as a GitHub secret
 
 Go to your repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
@@ -206,9 +206,7 @@ Only review comment text and `SKILL.md` are sent — not your source code. The d
 ## Contributing
 
 PRs welcome. Particularly interested in:
-- Support for GitLab CI
 - Aggregating rules across multiple repos into a shared org-level `SKILL.md`
-- A dry-run mode that prints extracted rules without writing files
 
 ---
 
